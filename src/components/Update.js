@@ -11,7 +11,7 @@ export default function Update() {
         setUser(res.data);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, );
   const navigate = useNavigate();
   const UpdateUser = (e) => {
     e.preventDefault();

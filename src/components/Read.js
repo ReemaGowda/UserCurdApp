@@ -3,14 +3,14 @@ import axios from "axios";
 import { Link, useParams } from "react-router-dom";
 export default function Read() {
   const [dataUser, setDataUser] = useState({});
-  //un hook qui extrait id de l'URL actuelle
+  
   const { id } = useParams();
   useEffect(() => {
     axios
       .get("http://localhost:3001/users/" + id)
       .then((res) => setDataUser(res.data))
       .catch((err) => console.log(err));
-  }, []);
+  }, );
   return (
     <div className="d-flex w-100 vh-100 justify-content-center align-items-center bg-light">
       <div className="w-50 border bg white shadow px-5 pt-3 pb-5 rounded">

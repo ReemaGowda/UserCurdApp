@@ -1,3 +1,4 @@
+<img width="1151" alt="Screenshot 2024-10-24 at 7 26 54 PM" src="https://github.com/user-attachments/assets/f2cd06d1-8025-4047-893a-a5d8febf016e">
 # CRUD with React, Axios, and JSON Server
 This repository contains a tutorial on creating a CRUD (Create, Read, Update, Delete) application using React for the frontend, Axios for handling HTTP requests, and JSON Server to simulate a RESTful API. 
 
